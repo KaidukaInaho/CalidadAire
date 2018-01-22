@@ -10,7 +10,10 @@
 .primary-text-color    { color: #212121; }
 .secondary-text-color  { color: #757575; }
 .divider-color         { border-color: #BDBDBD; }
-
+/*aqui le digo al navegador que no deje márgenes*/
+body {
+    margin:0;
+}
 .row::after {
     content: "";
     clear: both;
@@ -26,12 +29,12 @@ html {
 .header {
     background-color: #8BC34A;
     color: #ffff;
-    padding: 12px;
+    padding: 14px 16px;
 }
 .menu ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0; 
 }
 .menu li {
     padding: 8px;
